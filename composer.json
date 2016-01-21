@@ -1,0 +1,18 @@
+{
+    "name": "scottmetcalf/moodle-block_gradeview",
+    "description": "A block that updates instructors on new submissions and the status of their student in regards to specific assignments.",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Scott Metcalf",
+            "email": "saitaku@gmail.com"
+        }
+    ],
+    "type": "moodle-block",
+    "require": {
+      "composer/installers": "~1.0"
+    },
+    "extra": {
+      "installer-name": "gradeview"
+    }
+}
